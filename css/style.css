@@ -56,6 +56,7 @@ header .header-cont {
 
 .hero-section {
     width: 100%;
+    margin-bottom: 100px;
 }
 .hero-section .hero {
     width: 70%;
@@ -101,4 +102,65 @@ header .header-cont {
     font-weight: 800;
     border: 0;
     padding: 10px;
+}
+
+.about-me {
+    background: #fff;
+    padding: 10px;
+    margin-top: 50px;
+}
+.about-me .about-me-cont {
+    margin-top: 70px;
+    margin-left: 60px;
+}
+.about-me  h1 {
+    color: #676565;
+    font-size: 32px;
+    font-weight: 900;
+}
+.about-me .about-cont {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.about-me .about-cont .left {
+    flex: 1;
+}
+.about-me .about-cont .left .toolkit {
+
+}
+.about-me .about-cont .left .toolkit h4 {
+    color: #606060;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.about-me .about-cont .left .toolkit ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.about-me .about-cont .left .toolkit ul li {
+    width: 300px;
+    color: #000;
+    display: flex;
+}
+.about-me .about-cont .left .toolkit ul li svg {
+    flex: 1;
+}
+.about-me .about-cont .left .toolkit ul li span {
+    flex: 3;
+    font-size: 20px;
+    font-weight: 700;
+}
+.about-me .about-cont .left p {
+    color: #000;
+    font-size: 28px;
+    font-weight: 400;
+    padding: 10px;
+}
+.about-me .about-cont .right {
+    flex: 1;
+    text-align: center;
 }
