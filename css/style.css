@@ -12,21 +12,26 @@ body {
 }
 header {
     width: 100%;
-    height: 40px;
+    height: 50px;
     background: #D9D9D9;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 header .header-cont {
     width: 70%;
     margin: auto;
     display: flex;
+    padding-top: 10px;
     flex-direction: row;
 }
 .header-cont .logo {
-    color: #444;
+    color: #4471E8;
     font-family: Poppins;
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
+    line-height: 120%; /* 30px */
     letter-spacing: -0.75px;
     flex: 1;
 }
@@ -47,4 +52,53 @@ header .header-cont {
     font-weight: 500;
     line-height: 120%; /* 21.6px */
     letter-spacing: -0.54px;
+}
+
+.hero-section {
+    width: 100%;
+}
+.hero-section .hero {
+    width: 70%;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+.hero-section .hero .hey{
+    color: #000;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117%; /* 26.91px */
+    letter-spacing: -0.69px;
+}
+.hero-section .hero h2 {
+    color: #4471E8;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 117%; /* 35.1px */
+    letter-spacing: -0.9px;
+}
+.hero-section .hero h4 {
+    color: #676565;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 117%; /* 40.95px */
+    letter-spacing: -1.05px;
+}
+.hero-section .hero .more-hero {
+    margin-top: 20px;
+    color: #000;
+    font-size: 22px;
+    width: 500px;
+}
+.hero-section .hero .main-contact-me {
+    border-radius: 10px;
+    background: #4471E8;
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 800;
+    border: 0;
+    padding: 10px;
 }
