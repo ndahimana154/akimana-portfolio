@@ -221,3 +221,9 @@ header .header-cont {
 .latest-cont .work-line-cont .work-line .line-flex .flex-info .links ul li {
     margin-left: 5px;
 }
+.footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+}
