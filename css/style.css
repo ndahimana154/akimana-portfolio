@@ -127,7 +127,6 @@ header .header-cont {
     flex: 1;
 }
 .about-me .about-cont .left .toolkit {
-
 }
 .about-me .about-cont .left .toolkit h4 {
     color: #606060;
@@ -163,4 +162,62 @@ header .header-cont {
 .about-me .about-cont .right {
     flex: 1;
     text-align: center;
+}
+
+
+.latest-work {
+    margin-top: 20px;
+}
+.latest-work .latest-cont {
+    margin-left: 60px;
+}
+.latest-cont h1 {
+    color: #676565;
+    font-size: 32px;
+    font-weight: 900;
+}
+.latest-cont .work-line-cont {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.latest-cont .work-line-cont .work-line {
+    /* flex: 1; */
+    padding: 10px;
+    width: 30%;
+    /* margin: auto; */
+}
+.latest-cont .work-line-cont .work-line h3 {
+    color: #606060;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.latest-cont .work-line-cont .work-line .line-flex {
+    display: flex;
+    flex-direction: column;
+}
+.latest-cont .work-line-cont .work-line .line-flex .flex-image {
+    flex: 1;
+}
+.latest-cont .work-line-cont .work-line .line-flex .flex-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+.latest-cont .work-line-cont .work-line .line-flex .flex-info {
+    flex: 1;
+}
+.latest-cont .work-line-cont .work-line .line-flex .flex-info p{
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+.latest-cont .work-line-cont .work-line .line-flex .flex-info .links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.latest-cont .work-line-cont .work-line .line-flex .flex-info .links ul li {
+    margin-left: 5px;
 }
